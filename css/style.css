@@ -1,0 +1,316 @@
+/* COMMON CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.yellow-box {
+  background-color: #cfc91d;
+  color: #0b1016;
+  padding: 19px 42px;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 800;
+  color: #02918c;
+}
+
+.heading p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* COMMON CSS END  */
+
+/* menuu bar start */
+
+nav {
+  background-color: #02918c;
+}
+
+nav .logo {
+  width: 40%;
+}
+
+nav .menu-bar {
+  width: 60%;
+}
+
+.menu-bar {
+  text-align: right;
+}
+
+.menu-bar ul li {
+  display: inline-block;
+  padding: 26px 25px;
+}
+
+.menu-bar ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+/* menu bar end */
+/* section-2 */
+#section2 {
+  background-color: rgba(0, 0, 0, 0.34);
+  background-image: url(../images/bg-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 210px 0;
+}
+
+.texts {
+  text-align: center;
+}
+
+.texts h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.texts h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.texts p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.texts img {
+  display: block;
+  margin: 50px auto;
+}
+
+/* section-2 END */
+/* about me */
+
+#about-me {
+  padding: 98px 0;
+}
+
+#about-me .texts2 {
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 140px 75px 140px;
+  color: #7e8287;
+  line-height: 40px;
+}
+
+#about-me .texts2 p b {
+  font-size: 23px;
+}
+
+.box {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #d9dbdb;
+  padding: 40px 0;
+}
+
+.box:last-child {
+  border: none;
+}
+
+.box span {
+  display: block;
+  color: #02918c;
+  font-size: 30px;
+  margin-bottom: 34px;
+}
+
+.box h4,
+p {
+  color: #7e8287;
+}
+
+.box h4 {
+  margin-bottom: 34px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.box p {
+  font-size: 11px;
+  padding: 0 51px;
+}
+
+/* about me END */
+
+/* services */
+
+#services {
+  background-image: url(../images/bg-logo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 98px 0;
+}
+
+#services .heading {
+  text-align: left;
+}
+
+#services .texts2 {
+  margin: 34px 0;
+}
+
+#services .box {
+  width: 50%;
+  border: none;
+  text-align: left;
+}
+
+#services .box p {
+  padding: 0 101px 0 0;
+}
+
+.texting {
+  width: 50%;
+}
+
+/* services END */
+
+/* my work */
+#my-work {
+  padding: 98px 0;
+}
+
+#my-work .text2 {
+  text-align: center;
+  padding: 36px 261px;
+  line-height: 40px;
+}
+
+.icons {
+  width: 25%;
+  position: relative;
+}
+
+.icons img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlayer p {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.overlayer {
+  color: #fff;
+  background-color: #26978e92;
+  text-align: center;
+  padding: 110px 84px;
+  position: absolute;
+  inset: 20px 30px;
+  opacity: 0;
+  transition: 0.35s ease;
+}
+
+.icons:hover .overlayer {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+/* my work END  */
+/* contact me  */
+
+#contact-me .text2 {
+  text-align: center;
+  padding: 36px 240px;
+  line-height: 40px;
+}
+
+/* contact me END */
+/* form making */
+
+#form {
+  margin-top: 45px;
+  background-color: #0b0b0b;
+  text-align: center;
+}
+
+#form .inputs form {
+  padding: 50px 0;
+}
+
+#form .inputs input {
+  display: block;
+  margin: auto;
+  width: 640px;
+  font-size: 16px;
+  background-color: #0b0b0b;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  border-bottom: 1px solid #898989;
+  padding-bottom: 15px;
+  margin-bottom: 60px;
+}
+
+#form .inputs .high-width {
+  width: 920px;
+}
+
+/* form making END  */
+/* footer section */
+
+#footer {
+  background-color: #000;
+  color: #7e8287;
+  text-align: center;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+/* footer section END */
